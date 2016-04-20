@@ -1,0 +1,49 @@
+* body {
+  background-color: #98ea99;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+}
+
+.AlbumContentsContainer {
+  width: 100%;
+  display:inline-block;
+  font-family: 'Poiret One', cursive;
+  .myAlbums {
+    li {
+      border:2px solid white;
+      background-color: white;
+      text-align: center;
+      box-shadow: 1px 1px 1px black;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+      margin-top: 2.5%;
+
+    }
+  }
+a, li{
+  display: inline-block;
+}
+h2 {
+  text-align: center;
+
+}
+.Albumphoto, {
+
+    text-align: center;
+    margin-top: 10%;
+    border:2px solid white;
+    background-color: white;
+    text-align: center;
+    box-shadow: 1px 1px 1px black;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+  }
+  }

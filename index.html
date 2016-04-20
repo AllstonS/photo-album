@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Album</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
+</head>
+<body>
+
+
+  <!--Main Gallery-->
+  <div class="AlbumContentsContainer">
+
+    <article class="AlbumGallery_Wrapper active">
+
+      <h1 class="title">The Schwartz Life</h1>
+      <hr>
+    <!--Albums Homepage -->
+      <nav class="myAlbums">
+         <ul>
+          <li class="activeNav"><a href="" rel="album1"><img src="images/family/familyPear.jpg" alt=""><h3>Family</h3></a></li>
+          <li class="activeNav"><a href="" rel="album2"><img src="images/friends/skyzone.jpg" alt=""><h3>Friends</h3></a></li>
+          <li class="activeNav"><a href="" rel="album3"><img src="images/pets/catInABox.jpg" alt=""><h3>Pets</h3></a></li>
+          <li class="activeNav"><a href="" rel="ablum4"><img src="images/mitchell/MatTIY.jpg" alt=""><h3>Mitchell</h3></a></li>
+          <li class="activeNav"><a href="" rel="album5"><img src="images/griffin/Gaha.jpg" alt=""><h3>Griffin</h3></a></li>
+          <li class="activeNav"><a href="" rel="album6"><img src="images/activities/steakNshake.jpg" alt=""><h3>Activities</h3></a></li>
+        </ul>
+      </nav>
+    </article>
+
+<!-- Family Album-->
+
+    <article class="album1">
+      <h2>Family</h2>
+
+      <a href="" class="Albumphoto"><img src="images/family/birdCarving.jpg" alt=""><h3>Nana & Grandpa</h3></a>
+      <a href="" class="Albumphoto"><img src="images/family/familySelfie.jpg" alt=""><h3>Faces</h3></a>
+      <a href="" class="Albumphoto"><img src="images/family/Kimmy.jpg" alt=""><h3>Kris & Kimmy</h3></a>
+      <a href="" class="Albumphoto"><img src="images/family/FoleyDitch.jpg" alt=""><h3>Foley Clan</h3></a>
+      <a href="" class="Albumphoto"><img src="images/family/dante.jpg" alt=""><h3>Dante</h3></a>
+      <a href="" class="Albumphoto"><img src="images/family/theDock.jpg" alt=""><h3>Lowcountry Livin'</h3></a>
+    </article>
+
+    <!--Friends-->
+    <article class="album2">
+      <h2>Friends</h2>
+
+      <a href="" class="Albumphoto"><img src="images/friends/Dewhirst.jpg" alt=""><h3>Riding</h3></a>
+      <a href="" class="Albumphoto"><img src="images/friends/boysOnAWall.jpg" alt=""><h3>Hangin'Out</h3></a>
+      <a href="" class="Albumphoto"><img src="images/friends/skyzone.jpg" alt=""><h3>The Gang</h3></a>
+      <a href="" class="Albumphoto"><img src="images/friends/AndrewWDogs.jpg" alt=""><h3>Andrew and His Friends</h3></a>
+      <a href="" class="Albumphoto"><img src="images/friends/eliana.jpg" alt=""><h3>Eliana</h3></a>
+      <a href="" class="Albumphoto"><img src="images/friends/woodShed.jpg" alt=""><h3>In the Wood Shed</h3></a>
+    </article>
+
+
+    <!--Pets-->
+
+    <article class="album3">
+      <h2>Pets</h2>
+
+      <a href="" class="Albumphoto"><img src="images/pets/catInABox.jpg" alt=""><h3>Cat In A Box</h3></a>
+      <a href="" class="Albumphoto"><img src="images/pets/Charlie_etal.jpg" alt=""><h3>Charlie and the Boys</h3></a>
+      <a href="" class="Albumphoto"><img src="images/pets/pfeiffer.jpg" alt=""><h3>Pfeiffer</h3></a>
+      <a href="" class="Albumphoto"><img src="images/pets/greatDane.jpg" alt=""><h3>That's a Big Dog</h3></a>
+      <a href="" class="Albumphoto"><img src="images/pets/cavia.jpg" alt=""><h3>Cavia</h3></a>
+      <a href="" class="Albumphoto"><img src="images/pets/petNap.jpg" alt=""><h3>What?!</h3></a>
+    </article>
+
+</div>
+<!--MENU-->
+  <aside>
+    <nav class="menu">
+      <ul>
+        <li class="Nav_Sidebar"><a href=""rel="AlbumGallery_Wrapper" data-realted="AlbumGallery_Wrapper">Home</a></li>
+        <li class="Nav_Sidebar"><a href="" rel="album1" data-related="album1">Family</a></li>
+        <li class="Nav_Sidebar"><a href="" rel="album2" data-related="album2">Friends</a></li>
+        <li class="Nav_Sidebar"><a href="" rel="album3" data-related="album3">Pets</a></li>
+        <li class="Nav_Sidebar"><a href="" rel="album4" data-related="album4">Griffin</a></li>
+        <li class="Nav_Sidebar"><a href="" rel="album5" data-related="album5">Mitchell</a></li>
+        <li class="Nav_Sidebar"><a href="" rel="album6" data-related="album6">Activities</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
